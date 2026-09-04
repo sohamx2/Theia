@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode user and build state
+.build/
+.swiftpm/
+.vscode/
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.xcarchive
+*.app
+
+# Local configuration and logs
+.env
+.env.*
+!.env.example
+*.log
+
+# Local screen captures and screen-specific benchmark output
+# These may contain private browser tabs, account names, or messages.
+BenchmarkResults/current-screen.png
+BenchmarkResults/current-screen-qwen3-vl-comparison.json
+BenchmarkResults/current-screen-qwen3-vl-comparison.md
+BenchmarkResults/model-candidates/
